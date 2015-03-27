@@ -32,4 +32,4 @@ React grow fast and add new features and drop old one in every new releases, so 
           <p>Hello {this.props.name}!!!</p>
         </div>`
 
-Or see ./test/fixtures directory
+Or see ./test/fixtures directory.
