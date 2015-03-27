@@ -1,5 +1,5 @@
 [![Dependency Status](https://gemnasium.com/Meettya/clinch.csbx.svg)](https://gemnasium.com/Meettya/clinch.csbx)
-[![Build Status](https://travis-ci.org/Meettya/clinch.csbx.svg?branch=react_0.12)](https://travis-ci.org/Meettya/clinch.csbx)
+[![Build Status](https://travis-ci.org/Meettya/clinch.csbx.svg?branch=react_0.13)](https://travis-ci.org/Meettya/clinch.csbx)
 
 # clinch.csbx
 
@@ -23,7 +23,7 @@ React grow fast and add new features and drop old one in every new releases, so 
 
 ## .csbx example
 
-    module.exports = React.createClass
+    module.exports = class HelloMessage extends React.Component
 
       render: ->
         `<div className="message">

@@ -1,5 +1,5 @@
 
-module.exports = React.createClass
+module.exports = class HelloMessage extends React.Component
 
   render: ->
     `<div className="message">

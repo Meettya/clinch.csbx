@@ -1,6 +1,6 @@
 {
   "name": "clinch.csbx",
-  "version": "0.12.1",
+  "version": "0.13.1",
   "description": "CoffeeScript with React jsx in backticks processor for Clinch",
   "main": "./lib/addon",
   "scripts": {
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "clinch.coffee" : "*",
-    "clinch.jsx": "0.12.x"
+    "clinch.jsx": "0.13.x"
   },
   "devDependencies": {
     "coffee-script": "*",
@@ -32,7 +32,7 @@
     "colors": "*",
     "walkdir": "*",
     "fs-extra": "*",
-    "react": "0.12.x"
+    "react": "0.13.x"
   },
   "engines": {
     "node": ">=0.10.0"
