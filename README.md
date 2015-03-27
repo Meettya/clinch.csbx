@@ -1,5 +1,5 @@
 [![Dependency Status](https://gemnasium.com/Meettya/clinch.csbx.svg)](https://gemnasium.com/Meettya/clinch.csbx)
-[![Build Status](https://travis-ci.org/Meettya/clinch.csbx.svg?branch=react_0.11)](https://travis-ci.org/Meettya/clinch.csbx)
+[![Build Status](https://travis-ci.org/Meettya/clinch.csbx.svg?branch=react_0.12)](https://travis-ci.org/Meettya/clinch.csbx)
 
 # clinch.csbx
 
@@ -22,8 +22,6 @@ For more information see main module documentation.
 React grow fast and add new features and drop old one in every new releases, so ```clinch.csbx``` have some version for all minor React version.
 
 ## .csbx example
-
-    `/** @jsx React.DOM */`
 
     module.exports = React.createClass
 
