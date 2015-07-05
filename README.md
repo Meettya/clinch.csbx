@@ -31,3 +31,10 @@ React grow fast and add new features and drop old one in every new releases, so 
         </div>`
 
 Or see ./test/fixtures directory
+
+## Why .csbx ?
+
+Sadly while combining the best of two worlds - CoffeeScript and jsx React implemented by "the place" - using a trick with the backticks, which allow you to insert in CoffeScript structure, they are not processed. This is the reason for such an extension of the files is selected - "Coffee Script with Backticks eXt" - `.csbx`
+
+As soon as the normal method is to combine both tools - I'll do it as soon as possible, most likely with the file extension will be `.csx`
+
