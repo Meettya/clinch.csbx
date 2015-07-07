@@ -5,9 +5,11 @@ _     = require 'lodash'
 fs    = require 'fs'
 path  = require 'path'
 vm    = require 'vm'
-React = require 'react/addons'
 
-CoffeeScript = require 'coffee-script'
+React           = require 'react'
+ReactDOMServer  = require 'react-dom/server'
+
+CoffeeScript    = require 'coffee-script'
 
 lib_path = GLOBAL?.lib_path || ''
 
@@ -56,7 +58,7 @@ describe 'Addon:', ->
           vm.runInNewContext code, sandbox = { React, module:exports:null }
           react_comp = sandbox.module.exports
           MyComp     = React.createFactory react_comp
-          reactHtml  = React.renderToStaticMarkup MyComp name : 'Bender'
+          reactHtml  = ReactDOMServer.renderToStaticMarkup MyComp name : 'Bender'
           # console.log reactHtml
           expect(reactHtml).to.equal results.ok
 
