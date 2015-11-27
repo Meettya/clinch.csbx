@@ -1,5 +1,5 @@
 [![Dependency Status](https://gemnasium.com/Meettya/clinch.csbx.svg)](https://gemnasium.com/Meettya/clinch.csbx)
-[![Build Status](https://travis-ci.org/Meettya/clinch.csbx.svg?branch=react_0.13)](https://travis-ci.org/Meettya/clinch.csbx)
+[![Build Status](https://travis-ci.org/Meettya/clinch.csbx.svg?branch=react_0.14_beta)](https://travis-ci.org/Meettya/clinch.csbx)
 
 # clinch.csbx
 
@@ -20,6 +20,8 @@ For more information see main module documentation.
 ## About React version
 
 React grow fast and add new features and drop old one in every new releases, so ```clinch.csbx``` have some version for all minor React version.
+
+This is v0.14.1 React version with Babel transformer for jsx-part of ```csbx``` file.
 
 ## .csbx example
 

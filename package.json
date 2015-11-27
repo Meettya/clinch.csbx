@@ -1,6 +1,6 @@
 {
   "name": "clinch.csbx",
-  "version": "0.13.2",
+  "version": "0.14.1",
   "description": "CoffeeScript with React jsx in backticks processor for Clinch",
   "main": "./lib/addon",
   "scripts": {
@@ -20,19 +20,20 @@
   "author": "Dmitrii Karpich <meettya@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "clinch.coffee" : "*",
-    "clinch.jsx": "0.13.x"
+    "clinch.coffee": "*",
+    "clinch.jsx": "0.14.x"
   },
   "devDependencies": {
-    "coffee-script": "*",
-    "lodash": "*",
     "async": "*",
     "chai": "*",
-    "mocha": "*",
+    "coffee-script": "*",
     "colors": "*",
-    "walkdir": "*",
     "fs-extra": "*",
-    "react": "0.13.x"
+    "lodash": "*",
+    "mocha": "*",
+    "react": "0.14.x",
+    "react-dom": "0.14.x",
+    "walkdir": "*"
   },
   "engines": {
     "node": ">=0.10.0"
