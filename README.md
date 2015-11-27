@@ -21,7 +21,7 @@ For more information see main module documentation.
 
 React grow fast and add new features and drop old one in every new releases, so ```clinch.csbx``` have some version for all minor React version.
 
-This is v0.14.0-beta1 React version with Babel transformer for jsx-part of ```csbx``` file.
+This is v0.14.1 React version with Babel transformer for jsx-part of ```csbx``` file.
 
 ## .csbx example
 
